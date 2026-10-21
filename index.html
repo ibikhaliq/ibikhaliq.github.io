@@ -433,7 +433,7 @@
       </div>
       <p class="tagline">I build intelligent systems, developer tools, and data-driven software.</p>
       <dl class="hero-meta">
-        <div><dt>Current</dt><dd>Research Assistant @ UR</dd></div>
+        <div><dt>Current</dt><dd>CLAII Fellow + Research Assistant @ UR</dd></div>
         <div><dt>Focus</dt><dd>Backend systems, ML pipelines, AI tooling</dd></div>
         <div><dt>Graduating</dt><dd>May 2028</dd></div>
       </dl>
@@ -465,7 +465,7 @@
           </div>
           <div class="about-body">
             <p>I'm a junior at the University of Richmond studying Computer Science and Mathematics with a minor in Data Science and Statistics. I work at the intersection of software engineering, data, and machine learning, building systems that solve real problems and ship to real users.</p>
-            <p>My recent work spans Android research tooling, AI-powered codebase analysis, real-time computer vision, and backend API development. I care about writing clean, testable code and understanding systems deeply rather than skimming the surface.</p>
+            <p>My recent work spans LLM content pipelines, Android research tooling, AI-powered codebase analysis, real-time computer vision, and backend API development. I care about writing clean, testable code and understanding systems deeply rather than skimming the surface.</p>
             <div class="stats">
               <div class="stat"><strong>CS + Math</strong><span>Double major</span></div>
               <div class="stat"><strong>Richmond</strong><span>University of Richmond</span></div>
@@ -487,15 +487,27 @@
       <p class="section-sub">Where I've built, shipped, and learned.</p>
       <div class="disco">
         <article class="release">
+          <div class="release-cover" style="background:linear-gradient(160deg,#ff8a65,#b23c17);color:#2a0a00" aria-hidden="true">AI</div>
+          <div>
+            <div class="release-head"><h3>CLAII Fellow</h3><span class="release-date">Aug 2026 - Present</span></div>
+            <p class="release-org">Center for Liberal Arts and AI, University of Richmond</p>
+            <ul>
+              <li>Building an LLM pipeline that turns CHR (a digital humanities journal) articles into posts for Bluesky, X, LinkedIn, and Instagram</li>
+              <li>Designed a six-stage system (ingestion, LLM drafting, editor approval queue, delivery) with mandatory human review</li>
+              <li>Built few-shot prompts from 24 editor-written posts as the eval baseline; automated the Bluesky pipeline after comparing 4 APIs</li>
+            </ul>
+          </div>
+        </article>
+        <article class="release">
           <div class="release-cover" style="background:linear-gradient(160deg,#3ee08f,#0f5c39);color:#06210f" aria-hidden="true">SA</div>
           <div>
             <div class="release-head"><h3>Undergraduate Research Assistant</h3><span class="release-date">Jan 2026 - Present</span></div>
             <p class="release-org">SASSEMA / University of Richmond</p>
             <ul>
-              <li>Developing an Android onboarding application in Java for a Spring 2027 research study launch</li>
-              <li>Implemented a full baseline survey battery spanning 20+ questionnaires and 200+ input fields across ~25 screens</li>
-              <li>Built an AlarmManager-based reminder system and a WiFi-aware upload pipeline to the research server</li>
-              <li>Integrated Health Connect for passive sensor data collection; debugged Android 13 device-level limitations</li>
+              <li>Led the Java-based Android port of an ADHD research app with onboarding, recovery logic, and 20+ questionnaires (200+ fields)</li>
+              <li>Built AlarmManager reminders and accelerometer/gyroscope sensing (25-50 Hz) for field data capture</li>
+              <li>Integrated five Health Connect data types via Kotlin/Java; fixed an SDK check blocking integration on Android 16</li>
+              <li>Built a WorkManager/JSONL pipeline with Wi-Fi-gated uploads and retries; 45 QA cases caught 7 bugs</li>
               <li>Produced a 9-page architecture and handoff document for the research team</li>
             </ul>
           </div>
@@ -506,9 +518,10 @@
             <div class="release-head"><h3>Software Engineering Intern</h3><span class="release-date">Aug 2025 - Sep 2025</span></div>
             <p class="release-org">Express Tax &amp; Accounting</p>
             <ul>
-              <li>Optimized SQL queries across PostgreSQL and SQL Server, cutting report generation time by 40%</li>
-              <li>Built ETL pipelines with Python and Pandas to process 5,000+ financial transactions monthly</li>
-              <li>Reduced manual data processing work by 35%, saving 10+ hours per week</li>
+              <li>Tuned SQL queries with composite indexes across PostgreSQL and SQL Server, cutting report generation time by 40%</li>
+              <li>Added Pydantic validation and error handling, eliminating 200+ monthly duplicate-entry errors</li>
+              <li>Reconciled 5,000+ monthly ledger transactions from three sources using Python/Pandas, cutting manual entry by 35%</li>
+              <li>Built a tax-document ingestion and normalization ETL, saving auditors 10+ hours weekly</li>
             </ul>
           </div>
         </article>
@@ -519,8 +532,8 @@
             <p class="release-org">Richmond Innovation Fellows</p>
             <ul>
               <li>Selected as 1 of 8 from 100 applicants for a fellowship bridging students with tech leaders from companies like OpenAI, Cisco, and Roku</li>
-              <li>Work with venture capitalists, founders, and engineers on technology, entrepreneurship, and design thinking</li>
-              <li>Apply prototyping and data-driven decision-making to evaluate real-world startup challenges</li>
+              <li>Conducted 15+ stakeholder interviews and evaluated 20+ platforms</li>
+              <li>Prototyped dining-hall fixes with a 3-person team and pitched one improvement to the Head of Dining and faculty</li>
             </ul>
           </div>
         </article>
@@ -530,8 +543,7 @@
             <div class="release-head"><h3>Resident Assistant</h3><span class="release-date">Aug 2025 - Present</span></div>
             <p class="release-org">University Forest Apartments, University of Richmond</p>
             <ul>
-              <li>Mentor and community leader for 30+ residents, building inclusive community through meaningful relationships</li>
-              <li>Organize social and educational programming alongside other RAs</li>
+              <li>Support 30+ residents through conflict resolution, referrals, and community programs with an eight-person RA team</li>
             </ul>
           </div>
         </article>
@@ -548,6 +560,16 @@
     <section class="section" aria-labelledby="h-lead">
       <h2 id="h-lead">Leadership and community</h2>
       <div class="appears">
+        <article class="appear">
+          <h3>Events Chair</h3>
+          <p class="org">ACM, University of Richmond</p>
+          <p>Plan the chapter's events and build the slide decks for its meetings.</p>
+        </article>
+        <article class="appear">
+          <h3>VITA Tax Volunteer</h3>
+          <p class="org">Volunteer Income Tax Assistance (VITA)</p>
+          <p>Volunteer with the IRS VITA program, helping community members file their taxes.</p>
+        </article>
         <article class="appear">
           <h3>Spiritual Programming Coordinator</h3>
           <p class="org">Muslim Life, University of Richmond</p>
@@ -571,10 +593,10 @@
       <h2 id="h-skills">Tech stack</h2>
       <p class="section-sub">Tools I build with.</p>
       <div class="genres">
-        <div class="genre" style="background:#1f9a63"><h3>Languages</h3><ul><li>Python</li><li>Java</li><li>C++</li><li>JavaScript</li><li>SQL</li></ul></div>
-        <div class="genre" style="background:#7c4ddb"><h3>AI / Data</h3><ul><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li><li>OpenCV</li><li>Matplotlib</li></ul></div>
-        <div class="genre" style="background:#c2621d"><h3>Backend</h3><ul><li>FastAPI</li><li>REST APIs</li><li>ETL Pipelines</li></ul></div>
-        <div class="genre" style="background:#1d6fa5"><h3>Tools</h3><ul><li>Git</li><li>GitHub</li><li>Docker</li><li>AWS</li><li>Linux</li><li>Android Studio</li><li>Jupyter</li></ul></div>
+        <div class="genre" style="background:#1f9a63"><h3>Languages</h3><ul><li>Python</li><li>Java</li><li>Kotlin</li><li>C++</li><li>SQL</li><li>JavaScript</li><li>HTML/CSS</li></ul></div>
+        <div class="genre" style="background:#7c4ddb"><h3>AI / Data</h3><ul><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li><li>OpenCV</li><li>Streamlit</li><li>ML pipelines</li><li>Vector search</li></ul></div>
+        <div class="genre" style="background:#c2621d"><h3>Backend</h3><ul><li>FastAPI</li><li>Pydantic</li><li>REST APIs</li><li>ETL Pipelines</li><li>PostgreSQL</li><li>SQL Server</li></ul></div>
+        <div class="genre" style="background:#1d6fa5"><h3>Tools</h3><ul><li>Git</li><li>GitHub</li><li>Docker</li><li>AWS</li><li>Linux</li><li>Android Studio</li><li>Jupyter</li><li>pytest / JUnit</li><li>CI/CD</li></ul></div>
       </div>
     </section>
 
@@ -633,9 +655,9 @@
       id: "repo-assistant", featured: true,
       title: "AI GitHub Repository Assistant",
       tech: ["Python", "FastAPI", "Docker", "Ollama", "GitPython", "Vector Embeddings"],
-      metric: "LLM + RAG",
+      metric: "60% to 85% retrieval",
       desc: "AI-powered codebase analysis platform that clones repositories, generates LLM-based summaries, indexes source code with vector embeddings, and answers natural-language questions about repository architecture.",
-      bullets: ["Hybrid semantic retrieval combining keyword search and vector similarity", "Parallel indexing pipeline with commit-aware caching", "REST APIs via FastAPI, containerized with Docker"],
+      bullets: ["Hybrid keyword + embedding search raised top-5 retrieval accuracy from 60% to 85% on a 20-question eval", "Parallel indexing with commit-aware caching cut re-index time on a large repo from 5 min to 1 min", "REST APIs via FastAPI, containerized with Docker"],
       pipeline: ["GitHub Repo", "Parser", "Embeddings", "Hybrid Retrieval", "LLM Answer"],
       link: "https://github.com/ibikhaliq/github-repo-assistant",
       cover: ["#3ee08f", "#0f5c39", "#06210f"], glyph: "RAG"
